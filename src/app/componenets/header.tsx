@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import AuthButtons from "./Authbutton";
 import ProfileDropdown from "./profiledropdown";
-import { motion } from "framer-motion";
 import SearchBar from "./SearchBar";
 
 interface CartProduct {
