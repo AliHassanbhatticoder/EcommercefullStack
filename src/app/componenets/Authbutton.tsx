@@ -10,7 +10,7 @@ export default function AuthButtons() {
         <div className="flex items-center justify-center gap-2 md:gap-4 ">
           {/* Sign In Button */}
           <SignInButton mode="modal">
-            <button className="px-2 py-2 text-black rounded-lg text-sm md:text-base font-medium flex items-center gap-2 ">
+            <button className="px-2 py-2 text-black rounded-lg text-sm md:text-normal font-normal flex items-center gap-2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -30,11 +30,11 @@ export default function AuthButtons() {
           </SignInButton>
 
           {/* Divider */}
-          <div className="w-px h-6 md:h-9 bg-black opacity-20"></div>
+
 
           {/* Sign Up Button */}
           <SignUpButton mode="modal">
-            <button className="px-1 py-2 text-black rounded-lg text-sm md:text-base font-medium flex items-center gap-2 ">
+            <button className="px-1 py-2 text-black rounded-lg text-sm md:text-normal font-normal flex items-center gap-2 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

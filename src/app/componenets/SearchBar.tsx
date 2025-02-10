@@ -45,7 +45,7 @@ export default function SearchBar() {
   }, [query]);
 
   return (
-    <div className="relative w-64" ref={ref}>
+    <div className="relative w-96" ref={ref}>
       <input
         type="text"
         placeholder="Search products..."

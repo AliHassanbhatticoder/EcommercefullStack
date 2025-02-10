@@ -55,58 +55,12 @@ export default function Home() {
 
   return (
     <div>
-      <div className="relative overflow-hidden bg-[#2A254B] text-white xm:h-[34px] lg:h-[38px] flex items-center">
-        <div className="flex w-full whitespace-nowrap">
-          {/* First Text */}
-          <motion.div
-            className="flex items-center gap-2 text-white xm:text-[10px] lg:text-[14px] leading-[16.2px] font-normal whitespace-nowrap"
-            initial={{ x: "-200%" }} // Starts from the right
-            animate={{ x: "320%" }} // Moves to the left
-            transition={{
-              repeat: Infinity,
-              duration: 20, // Total duration of the animation
-              ease: "linear",
-            }}
-          >
-            <span>
-              <Image
-                src="/truck2.svg"
-                alt="truck"
-                width={16}
-                height={16}
-                className="w-full h-auto object-cover"
-              />
-            </span>
-            <p>
-              Free delivery on all orders over £50 with code easter checkout
-            </p>
-          </motion.div>
-
-          {/* Second Text */}
-          <motion.div
-            className="flex items-center gap-2 text-white xm:text-[10px] lg:text-[14px] leading-[16.2px] font-normal whitespace-nowrap"
-            initial={{ x: "-200%" }} // Starts from the right
-            animate={{ x: "320%" }} // Moves to the left
-            transition={{
-              repeat: Infinity,
-              duration: 20, // Must match the first animation
-              ease: "linear",
-              delay: 10, // Half of the total duration to sync with the first text
-            }}
-          >
-            <span>
-              <Image
-                src="/truck2.svg"
-                alt="truck"
-                width={16}
-                height={16}
-                className="w-full h-auto object-cover"
-              />
-            </span>
-            <p>
-              Free delivery on all orders over £50 with code easter checkout
-            </p>
-          </motion.div>
+      <div className="flex xm:h-[34px] lg:h-[38px] text-white bg-[#2A254B] justify-center items-center">
+        <div className="flex items-center text-white xm:text-[10px] lg:text-[14px] leading-[16.2px] font-normal gap-1.5">
+          <span>
+            <Image src="/truck2.svg" alt="truck" width={16} height={16} />
+          </span>
+          <p>Free delivery on all orders over £50 with code easter checkout</p>
         </div>
       </div>
 

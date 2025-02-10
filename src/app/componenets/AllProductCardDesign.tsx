@@ -20,7 +20,7 @@ const Card: React.FC<CardProps> = ({ title, price, image }) => {
         />
       </div>
       <h3 className="text-left font-medium text-gray-800 mt-4">{title}</h3>
-      <p className="text-sm text-left text-red-500 line-through">Rs:499</p>
+      
       <p className="text-sm text-left text-gray-600">Rs:{price}</p>
     </div>
   );

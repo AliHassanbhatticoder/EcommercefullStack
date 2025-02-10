@@ -27,9 +27,7 @@ export default function ProductList({ products }: ProductListProps) {
             <h3 className="text-left font-medium text-gray-800 mt-4">
               {product.name}
             </h3>
-            <p className="text-sm text-left text-red-500 line-through">
-              Rs:499
-            </p>
+           
             <p className="text-sm text-left text-gray-600">
               Rs:{product.price}
             </p>
